@@ -1,9 +1,24 @@
 "use strict";
 
+window.onload = init;
 
+function init() {
+ displayPokemons()
+}
+
+//get pokemon by id
+async function getPokemon(id) {
+
+    let url = "https://pokeapi.co/api/v2/pokemon/" + id;
+
+
+
+
+
+}
+/*
 const url = " https://pokeapi.co/api/v2/pokemon/";
 let pokemon;
-window.onload = init;
 
 async function init() {
     try {
@@ -34,4 +49,4 @@ function displayPokemon(pokemonList) {
             `;        
     });
     
-}
+}*/
